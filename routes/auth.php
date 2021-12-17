@@ -36,3 +36,4 @@ Route::post(
 
 
 Route::resource('fileUploads', App\Http\Controllers\FileUploadController::class);
+Route::get('/create-customer', function () {    return view('customer.create-customer'); });
